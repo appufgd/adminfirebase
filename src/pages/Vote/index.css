@@ -1,5 +1,5 @@
 :local .field {
-  margin-bottom: 20px;
+  margin-bottom: 30px !important;
 }
 :local .field label[data-shrink="true"] {
   color: #ef6c00 !important;    
