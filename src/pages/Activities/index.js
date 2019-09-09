@@ -28,10 +28,6 @@ import data from '../../data.json'
 // Style
 import cssClass from './index.css'
 
-
-import Img from 'react-image'
-
-
 const styles = {
   content: {
     padding: '25px',
@@ -100,8 +96,6 @@ class Activities extends Component {
           goTo={goTo}
           signOut={signOut}
         />
-
-        <Img style={styles.imgFull} src="https://images.even3.com.br/HkFuxA6SzpG615t8hH3BjkUiDjA=/1300x536/smart/even3.blob.core.windows.net/banner/capa_simae_even3_Prancheta1.2f6010ce2c12431ea453.png" />
 
         <AppBar position="static" color="default">
           <Tabs
