@@ -27,7 +27,6 @@
     "qr-scanner": "^1.1.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-image": "^2.2.0",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "webpack": "^4.16.5",
