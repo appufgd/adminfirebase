@@ -1,0 +1,12 @@
+:local .field {
+  margin-bottom: 20px;
+}
+:local .field label[data-shrink="true"] {
+  color: #ef6c00 !important;    
+}
+:local .field div::after {
+  border-bottom-color: #ef6c00 !important;    
+}
+:local .submitButton {
+  background-color: #ef6c00 !important;
+}

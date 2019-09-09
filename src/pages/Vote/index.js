@@ -13,6 +13,9 @@ import Icon   from '../../components/Icon'
 import Header from '../../components/Header'
 import Rating from './Rating'
 
+// Styles
+import cssClass from './index.css'
+
 const styles = {
   listItem: {
     padding: '10px 0',
@@ -122,7 +125,8 @@ class Vote extends Component {
           </List>
 
           <TextField
-            style={{...styles.fullWidth, marginBottom: '20px'}}
+            style={{...styles.fullWidth}}
+            className={cssClass.field}
             label="Seu comentário (opcional)"
             multiline
             rowsMax="3"
@@ -134,6 +138,7 @@ class Vote extends Component {
           />
 
           <Button
+            className={cssClass.submitButton}
             type="submit"
             disabled={isSending}
             variant="contained"
