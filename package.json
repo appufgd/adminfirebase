@@ -1,0 +1,39 @@
+{
+  "name": "meu-app",
+  "version": "0.0.0",
+  "description": "Descrição do app...",
+  "private": true,
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-do-expressions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^3.0.1",
+    "firebase": "^6.0.2",
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "qr-scanner": "^1.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-image": "^2.2.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "author": "Matheus Alves",
+  "license": "MIT"
+}

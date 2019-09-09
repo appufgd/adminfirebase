@@ -1,0 +1,12 @@
+:local .content {
+  padding: 35px 25px 75px 25px !important;
+}
+:local .textsContainer {
+  padding: 15px 25px !important;
+}
+:local .textsTitle {
+  margin-bottom: 10px !important;
+}
+:local .textsSubtitle {
+  color: gray !important;
+}

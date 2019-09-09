@@ -1,0 +1,6 @@
+:local .button:disabled {
+  color: currentColor !important;
+}
+:local .icon {
+  font-size: '.85em',
+}

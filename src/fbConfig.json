@@ -1,0 +1,9 @@
+{
+  "apiKey": "AIzaSyC9Pp1ZZDlxUOIsaGbKPgeCkRPpvEqUGPE",
+  "authDomain": "simae-app.firebaseapp.com",
+  "databaseURL": "https://simae-app.firebaseio.com",
+  "projectId": "simae-app",
+  "storageBucket": "simae-app.appspot.com",
+  "messagingSenderId": "926816622801",
+  "appId": "1:926816622801:web:1f2b45714958f362ba0df0"
+}

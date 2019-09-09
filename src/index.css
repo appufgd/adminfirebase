@@ -1,0 +1,9 @@
+:global * {
+  margin: 0;
+  padding: 0;
+}
+:global html,
+:global body,
+:global #root {
+  height: 100% !important;
+}

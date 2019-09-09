@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f9a825">
+
+    <title>II SEMAE - UFGD</title>
+
+    <link rel="stylesheet" href="main.css?ce662f74404f1d92d0bd">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140637956-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-140637956-1');
+    </script>
+
+    <!-- Styles for spinner -->
+    <style>
+      .loader-container {
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .loader {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border: solid 5px #f9a825;
+        border-right-color: transparent;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        animation: spin 1s infinite linear;
+      }
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loader-container">
+        <div class="loader"></div>
+        <p>Baixando arquivos...</p>
+      </div>
+    </div>
+
+    <script src="main.js?ce662f74404f1d92d0bd"></script>
+  </body>
+</html>

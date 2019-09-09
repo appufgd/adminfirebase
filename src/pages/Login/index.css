@@ -1,0 +1,7 @@
+:local .container {
+  padding: 35px 25px 0 25px !important;
+}
+:local .messageText {
+  margin-bottom: 10px !important;
+  color: gray !important;
+}

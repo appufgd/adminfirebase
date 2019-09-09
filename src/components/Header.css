@@ -1,0 +1,6 @@
+:local .grow {
+  flex-grow: 1;
+}
+:local .leftBtn {
+  margin-right: 10px !important;
+}

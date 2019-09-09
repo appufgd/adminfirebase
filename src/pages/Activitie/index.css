@@ -1,0 +1,20 @@
+:local .content {
+  padding: 25px !important;
+}
+:local .chip {
+  margin-right: 5px !important;
+}
+:local .msgText {
+  margin-bottom: 10px !important;
+  color: gray !important;
+}
+:local .alignCenter {
+  text-align: center;
+}
+:local .comment {
+  padding: 10px 15px !important;
+  margin-bottom: 10px !important;
+}
+:local .comments {
+  margin-top: 15px !important;
+}

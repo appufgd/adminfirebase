@@ -1,0 +1,26 @@
+:local .root {
+  width: 75%;
+  box-shadow: 0 0 0 1200px rgba(0, 0, 0, .3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+:local .root::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #3f51b5;
+  position: absolute;
+  animation: ScannerEffect 2s infinite alternate linear;
+}
+@keyframes :local(ScannerEffect) {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 100%;
+  }
+}

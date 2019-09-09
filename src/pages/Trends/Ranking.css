@@ -1,0 +1,17 @@
+:local .message {
+  padding: 10px 15px !important;
+  margin: 25px !important;
+}
+:local .menuItem {
+  padding: 20px 15px !important;
+}
+:local .itemContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+:local .typeText {
+  display: block;
+  color: gray;
+  font-style: italic;
+}

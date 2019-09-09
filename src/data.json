@@ -1,0 +1,66 @@
+{
+  "seg": [
+    {
+      "namespace":"seg_pal",
+      "type": "Palestra de Abertura",
+      "title":  "Fé latina - Uma volta de bicicleta pela America Latina",
+      "time": "18:30 - 22:00"
+    }
+  ],
+  "ter": [
+    {
+      "namespace":"ter_painel_1",
+      "type":"Painel 1",
+      "title":"Entidades de representações comerciais e empresariais: desafios e ações para fortalecer os negócios na cidade de Dourados.",
+      "time": "18:30 - 22:00"
+    },
+    {
+      "namespace":"ter_painel_2",
+      "type":"Painel 2",
+      "title":"Franquias: oportunidades e desafios dos franqueados na cidade de Dourados",
+      "time": "18:30 - 22:00" 
+    },
+    {
+      "namespace":"ter_painel_3",
+      "type":"Painel 3",
+      "title":"Comércio e empresa: desafios, oportunidades e ações de inovação para manter os negócios.",
+      "time":  "18:30 - 22:00"
+    },
+    {
+      "namespace":"ter_painel_4",
+      "type":"Painel 4",
+      "title":"Cooperativas: desafios sociais, relacionamento com os associados, ações empreendedoras e de inovação como forma de sustentabilidade.",
+      "time":  "18:30 - 22:00"
+    },
+    {
+      "namespace":"ter_painel_5",
+      "type":"Painel 5",
+      "title":"INOVAÇÃO: agentes e iniciativas para acelerar negócios.",
+      "time":  "18:30 - 22:00"
+    },
+    {
+      "namespace":"ter_painel_6",
+      "type":"Painel 6",
+      "title":"e- Social: o que o gestor deve saber",
+      "time":  "18:30 - 22:00"
+    },
+    {
+      "namespace": "ter_cur_1",
+      "type": "Mini-curso",
+      "title": "Análise de dados espaciais.",
+      "time": "19:30-22:00"
+    },
+    {
+      "namespace":"ter_painel_7",
+      "type":"Painel 7",
+      "title":"Estágios e empregos: as agências como formas de alavancar carreiras",
+      "time":  "18:30 - 22:00"
+    },
+    {
+      "namespace":"ter_painel_8",
+      "type":"Painel 8",
+      "title":"Empreendedorismo Social: geração sustentável de emprego e renda.",
+      "time":  "18:30 - 22:00"
+    }
+  ]
+}

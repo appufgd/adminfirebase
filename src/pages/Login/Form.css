@@ -1,0 +1,10 @@
+:local .field {
+  width: 100%;
+}
+:local .fieldsContainer {
+  margin-bottom: 25px !important;
+}
+:local .submitBtn {
+  width: 100%;
+  padding: 10px 0 !important;
+}
